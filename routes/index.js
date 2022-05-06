@@ -4,7 +4,7 @@ var router = express.Router();
 /* GET home page. */
 router.get('/', function(req, res, next) {
   // res.json({message: 'Welcome to App'});
-  res.send('<p><h2>Welcome to Azure </h2> <br> by Tripatjot Singh</p>') ;
+  res.send('<p><h2>Welcome to Azure </h2> <br> by Tripatjot Singh</p> <br> <p><a href="/quotes">Quotes</a></p>') ;
 });
 
 module.exports = router;
